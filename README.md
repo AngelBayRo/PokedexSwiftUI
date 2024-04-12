@@ -44,6 +44,3 @@ Pokedex selector able to get the pokemon detail
 
 ## Media
 <video src="https://github.com/AngelBayRo/PokedexSwiftUI/assets/16726344/c749ac98-5055-4865-a738-49e5e2dba640" width="200"/>
-
-## Meta
-Ángel Luis Bayón Romero - [LinkedIn](https://www.linkedin.com/in/angel-bay%C3%B3n-romero-73282013a/)
