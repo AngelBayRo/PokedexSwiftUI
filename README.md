@@ -34,13 +34,13 @@ Pokedex selector able to get the pokemon detail
 <img src="https://github.com/AngelBayRo/PokedexSwiftUI/assets/16726344/9030ad6a-48d1-4ef8-a5db-c2626883cd37" alt="drawing" width="200"/>
 
 * Selector
-![Simulator Screenshot - iPhone 15 Pro - 2024-04-12 at 12 11 55](https://github.com/AngelBayRo/PokedexSwiftUI/assets/16726344/80aaf1a3-3313-41a2-be0a-553f35fc27f6)
+<img src="https://github.com/AngelBayRo/PokedexSwiftUI/assets/16726344/80aaf1a3-3313-41a2-be0a-553f35fc27f6" alt="drawing" width="200"/>
 
 * List
-![Simulator Screenshot - iPhone 15 Pro - 2024-04-12 at 12 12 07](https://github.com/AngelBayRo/PokedexSwiftUI/assets/16726344/fc4460b6-ec6b-4951-8a54-75cdba15e83d)
+<img src="https://github.com/AngelBayRo/PokedexSwiftUI/assets/16726344/fc4460b6-ec6b-4951-8a54-75cdba15e83d" alt="drawing" width="200"/>
   
 * Detail
-![Simulator Screenshot - iPhone 15 Pro - 2024-04-12 at 12 12 15](https://github.com/AngelBayRo/PokedexSwiftUI/assets/16726344/093e5445-a7fe-4b60-a255-ad68bdfabd24)
+<img src="https://github.com/AngelBayRo/PokedexSwiftUI/assets/16726344/093e5445-a7fe-4b60-a255-ad68bdfabd24" alt="drawing" width="200"/>
 
 ## Meta
 Ángel Luis Bayón Romero - [LinkedIn](https://www.linkedin.com/in/angel-bay%C3%B3n-romero-73282013a/)
