@@ -1,0 +1,24 @@
+{
+  "originHash" : "3decd66b517e1641a86fb2b5da3daf287e101538c0803b4053d3fbedca18b71d",
+  "pins" : [
+    {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios",
+      "state" : {
+        "revision" : "ab15129d567eda5da0631fcba23de60144a612f4",
+        "version" : "4.4.2"
+      }
+    },
+    {
+      "identity" : "opencombine",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OpenCombine/OpenCombine",
+      "state" : {
+        "revision" : "8576f0d579b27020beccbccc3ea6844f3ddfc2c2",
+        "version" : "0.14.0"
+      }
+    }
+  ],
+  "version" : 3
+}
