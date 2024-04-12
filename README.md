@@ -31,7 +31,7 @@ Pokedex selector able to get the pokemon detail
 
 ## Screenshots
 * Loader
-![Simulator Screenshot - iPhone 15 Pro - 2024-04-12 at 12 11 47](https://github.com/AngelBayRo/PokedexSwiftUI/assets/16726344/9030ad6a-48d1-4ef8-a5db-c2626883cd37)
+<img src="https://github.com/AngelBayRo/PokedexSwiftUI/assets/16726344/9030ad6a-48d1-4ef8-a5db-c2626883cd37" alt="drawing" width="200"/>
 
 * Selector
 ![Simulator Screenshot - iPhone 15 Pro - 2024-04-12 at 12 11 55](https://github.com/AngelBayRo/PokedexSwiftUI/assets/16726344/80aaf1a3-3313-41a2-be0a-553f35fc27f6)
