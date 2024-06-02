@@ -37,7 +37,8 @@ struct PokemonDetailBodyView: View {
                     let item = AbilityItemViewModel(ability: ability)
                     AbilityItemView(viewModel: item)
                         .listRowInsets(EdgeInsets())
-                }.frame(height: 60)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
             }
         }
     }

@@ -8,9 +8,11 @@
 import Foundation
 import Combine
 import SwiftUI
+import Observation
 
-final class HomeViewModel: ObservableObject {
-    @Published var data: [PokedexType] = []
+@Observable
+final class HomeViewModel {
+    var data: [PokedexType] = []
     private var cancelBag = Set<AnyCancellable>()
     
     var pokedexListUseCase: PokedexListSelectorUseCase {

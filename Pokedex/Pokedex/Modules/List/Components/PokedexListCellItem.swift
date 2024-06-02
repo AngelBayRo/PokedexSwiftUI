@@ -15,7 +15,7 @@ struct PokedexListCellItem: View {
         NavigationLink(destination: PokemonDetailView(viewModel: PokemonDetailViewModel(pokemon: viewModel.pokemonDataComplete ?? PokemonDataRepresentable()))) {
             HStack {
                 HStack {
-                    Text("    #" + String(viewModel.pokemonDataComplete?.identifier ?? 0))
+                    Text("#" + String(viewModel.pokemonDataComplete?.identifier ?? 0))
                     Text(viewModel.pokemonDataComplete?.name.capitalized ?? textExample)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)

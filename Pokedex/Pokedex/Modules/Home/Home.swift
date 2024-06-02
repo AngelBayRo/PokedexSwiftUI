@@ -10,7 +10,7 @@ import SwiftUI
 struct Home: View {
     @State private var selectedType: PokedexType = .all
     @State private var showOptions: Bool = false
-    @ObservedObject var viewModel: HomeViewModel
+    var viewModel: HomeViewModel
     
     @Environment(\.colorScheme) private var scheme
     

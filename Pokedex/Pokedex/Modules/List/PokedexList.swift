@@ -50,7 +50,7 @@ struct PokedexList: View {
                     let item = PokedexListCellItemViewModel(pokemon: pokemon)
                     PokedexListCellItem(viewModel: item)
                         .listRowInsets(EdgeInsets())
-                }.frame(height: 60)
+                }.dynamicTypeSize(.xxxLarge)
             }
         }
     }

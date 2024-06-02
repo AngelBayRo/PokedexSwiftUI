@@ -27,5 +27,5 @@ struct AbilityItemView: View {
 }
 
 #Preview {
-    AbilityItemView(viewModel: AbilityItemViewModel(ability: AbilityRepresentable(ability: FormRepresentable(name: "demo", url: "url"), isHidden: false, slot: 0)))
+    AbilityItemView(viewModel: AbilityItemViewModel(ability: AbilityRepresentable(ability: FormRepresentable(name: "demodemodemodemodemo", url: "url"), isHidden: false, slot: 0)))
 }
