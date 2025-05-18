@@ -1,5 +1,5 @@
 //
-//  PokedexTypeSelectorView.swift
+//  PokedexRegionSelectorView.swift
 //  Pokedex
 //
 //  Created by Angel Luis Bayon Romero on 21/3/24.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PokedexTypeSelectorView: View {
+struct PokedexRegionSelectorView: View {
     @Environment(\.colorScheme) private var scheme
     
     let text: String
@@ -27,5 +27,5 @@ struct PokedexTypeSelectorView: View {
 }
 
 #Preview(traits: .fixedLayout(width: 300, height: 40)) {
-    PokedexTypeSelectorView(text: "demo")
+    PokedexRegionSelectorView(text: "demo")
 }

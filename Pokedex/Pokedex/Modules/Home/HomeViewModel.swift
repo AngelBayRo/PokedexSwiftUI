@@ -12,7 +12,7 @@ import Observation
 
 @Observable
 final class HomeViewModel {
-    var data: [PokedexType] = []
+    var data: [PokedexRegionName] = []
     private var cancelBag = Set<AnyCancellable>()
     
     var pokedexListUseCase: PokedexListSelectorUseCase {
@@ -20,7 +20,7 @@ final class HomeViewModel {
     }
     
     init() {
-        pokedexListUseCase.getPokedexTypes()
+        pokedexListUseCase.getPokedexRegions()
             .sink { [weak self] types in
                 self?.data = types
             }.store(in: &cancelBag)

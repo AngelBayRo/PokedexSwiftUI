@@ -1,5 +1,5 @@
 //
-//  PokedexType.swift
+//  PokedexRegionName.swift
 //  Pokedex
 //
 //  Created by Angel Luis Bayon Romero on 21/3/24.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum PokedexType: String, CaseIterable {
+public enum PokedexRegionName: String, CaseIterable {
     case all = "Nacional"
     case firstGeneration = "Kanto"
     case secondGeneration = "Johto"
@@ -20,7 +20,7 @@ public enum PokedexType: String, CaseIterable {
     case ninethGeneration = "Paldea"
 }
 
-public func getPokedexRange(type: PokedexType) -> (Int, Int) {
+public func getPokedexRange(type: PokedexRegionName) -> (Int, Int) {
     switch type {
     case .all: return (0, 1025)
     case .firstGeneration: return (0, 151)

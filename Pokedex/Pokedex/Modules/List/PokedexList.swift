@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct PokedexList: View {
-    @Binding var selectedType: PokedexType
+    @Binding var selectedType: PokedexRegionName
     @ObservedObject var viewModel: PokedexListViewModel
+    @EnvironmentObject var globalViewModel: GlobalData
     
     var body: some View {
         Group {
@@ -17,7 +18,7 @@ struct PokedexList: View {
             case .loading:
                 LoadingView().transition(AnyTransition.opacity.animation(.easeOut(duration: 1.0)))
             case .failed:
-                ErrorView(action: { viewModel.reloadData() })
+                ErrorView(action: { /*viewModel.reloadData()*/ })
             case .loaded:
                 contentView()
             }
@@ -57,5 +58,8 @@ struct PokedexList: View {
 }
 
 #Preview {
-    PokedexList(selectedType: .constant(.firstGeneration), viewModel: PokedexListViewModel(selectedType: .secondGeneration))
+    PokedexList(
+        selectedType: .constant(.firstGeneration),
+        viewModel: PokedexListViewModel(selectedType: .secondGeneration,
+                                        globalData: GlobalData()))
 }

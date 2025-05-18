@@ -19,8 +19,10 @@ struct PokemonDetailView: View {
     @ViewBuilder
     func contentView() -> some View {
         LazyVStack {
-            PokemonDetailHeaderView(viewModel: PokemonDetailHeaderViewModel(pokemon: viewModel.pokemon))
-            PokemonDetailBodyView(viewModel: PokemonDetailBodyViewModel(pokemon: viewModel.pokemon))
+            ScrollView {
+                PokemonDetailHeaderView(viewModel: PokemonDetailHeaderViewModel(pokemon: viewModel.pokemon))
+                PokemonDetailBodyView(viewModel: PokemonDetailBodyViewModel(pokemon: viewModel.pokemon))
+            }
         }
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {

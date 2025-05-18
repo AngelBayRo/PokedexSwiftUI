@@ -9,11 +9,11 @@ import Foundation
 import Combine
 
 public protocol PokedexListSelectorUseCase {
-    func getPokedexTypes() -> AnyPublisher<[PokedexType], Never>
+    func getPokedexRegions() -> AnyPublisher<[PokedexRegionName], Never>
 }
 
 struct DefaultPokedexListSelectorUseCase: PokedexListSelectorUseCase {
-    func getPokedexTypes() -> AnyPublisher<[PokedexType], Never> {
-        Just(PokedexType.allCases).eraseToAnyPublisher()
+    func getPokedexRegions() -> AnyPublisher<[PokedexRegionName], Never> {
+        Just(PokedexRegionName.allCases).eraseToAnyPublisher()
     }
 }

@@ -23,7 +23,10 @@ struct PokedexApp: App {
             case .home:
                 Home(viewModel: HomeViewModel()).transition(AnyTransition.opacity.animation(.easeIn(duration: 1.0)))
             case .list:
-                PokedexList(selectedType: .constant(.fifthGeneration), viewModel: PokedexListViewModel(selectedType: .all))
+                PokedexList(
+                    selectedType: .constant(.firstGeneration),
+                    viewModel: PokedexListViewModel(selectedType: .all,
+                                                    globalData: GlobalData()))
             }
             
         }

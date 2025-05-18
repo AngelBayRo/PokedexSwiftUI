@@ -23,4 +23,15 @@ class PokedexRepository {
         
         return publisher
     }
+    
+    func fetchData<T: Decodable>(urlPath: String) async -> Result<T, Error>  {
+        guard let url = URL(string: urlPath) else { return .failure(URLError(.badURL)) }
+        do {
+            let (data, _) = try await URLSession.shared.data(from: url)
+            let dataContent = try JSONDecoder().decode(T.self, from: data)
+            return .success(dataContent)
+        } catch {
+            return .failure(URLError(.badURL))
+        }
+    }
 }

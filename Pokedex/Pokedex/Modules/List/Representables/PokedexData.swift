@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - PokedexData
-struct PokedexData: Decodable {
+public struct PokedexData: Decodable {
     let count: Int
     let next, previous: String?
     let results: [PokemonIdentifier]
